@@ -1,0 +1,6 @@
+//My 1st program-Hello World 
+public class Firstclass {
+    public static void main(String args[]){
+        System.out.print("Hello World!");
+    }
+}
