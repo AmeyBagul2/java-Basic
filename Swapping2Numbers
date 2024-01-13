@@ -1,0 +1,35 @@
+
+public class Swapping2Number {
+
+	public static void main(String[] args) {
+		int a=100,b=20;
+		System.out.println("the two number befor Swaping are.." +a+ " "+b);
+		//logic 1
+		/* t =a;
+		a=b;
+		b=t;
+		System.out.println("the two number after Swaping are.." +a+ " "+b);
+		*/
+		//logic2
+		/* if a=10 and b=20
+		a=a+b; //10+20=30
+		b=a-b;	//30-20=10
+		a=a-b; //30-10=20
+		System.out.println("the two number after Swaping are.." +a+ " "+b);
+		*/
+		/*logic3 (a,b>0)
+		a=a*b;	//100*20=2000
+		b=a/b; //2000/20=100
+		a=a/b; //2000/100=20
+		System.out.println("the two number after Swaping are.." +a+ " "+b);
+		*/
+	//logic4 bitwise XOR (^)
+		a=a^b;
+		b=b^a;
+		a=a^b;
+		System.out.println("the two number after Swaping are.." +a+ " "+b);
+		
+
+	}
+
+}
