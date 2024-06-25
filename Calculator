@@ -12,3 +12,4 @@ public class SimpleCalculator {
         char operation = scanner.next  
     }
 }
+#
